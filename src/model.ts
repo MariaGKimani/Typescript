@@ -48,3 +48,13 @@ saveInventoryItem({
     trackingNumber: "230324",
     createDate: new Date(),
 });
+
+function updatedInventoryItem(trackingNumber: string, item: Omit< Partial<InventoryItem>, "trackingNumber" >) {
+
+}
+updatedInventoryItem("230324",{
+    displayName: "Macbook",
+    trackingNumber: 09,
+
+
+});

@@ -28,4 +28,10 @@ saveInventoryItem({
     trackingNumber: "230324",
     createDate: new Date(),
 });
+function updatedInventoryItem(trackingNumber, item) {
+}
+updatedInventoryItem("230324", {
+    displayName: "Macbook",
+    trackingNumber: 9,
+});
 //# sourceMappingURL=model.js.map
